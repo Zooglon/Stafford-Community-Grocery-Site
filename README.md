@@ -5,8 +5,6 @@
 #### Instructions:
 
 Start
-
-````Yarn start
+`Yarn start`
 Build
-``` Yarn build
-````
+` Yarn build`
