@@ -15,8 +15,11 @@ $accentColour: orange;
 
 html {
   color: $fontColourMain;
-  padding: $thickSpacing;
   font-family: -apple-system, Roboto, sans-serif, serif;
+}
+
+section {
+  padding: $thickSpacing;
 }
 
 .heading {
@@ -37,4 +40,13 @@ html {
   &__accent {
     color: $fontColourAccent;
   }
+}
+
+.navbar {
+  position: fixed;
+  background-color: unset;
+  height: $xlSpacing;
+  width: $xlSpacing;
+  margin: $thinSpacing;
+  cursor: pointer;
 }
