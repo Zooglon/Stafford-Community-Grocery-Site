@@ -1,11 +1,16 @@
 import * as React from "react";
 import type { HeadFC, PageProps } from "gatsby";
 import "../styles.scss";
+import MainPage from "../components/MainPage";
+import InfoPage from "../components/InfoPage";
+import ContactPage from "../components/ContactPage";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <main>
-      <h1 className="heading__main">Welcome</h1>
+      <MainPage />
+      <InfoPage />
+      <ContactPage />
     </main>
   );
 };
