@@ -1,0 +1,40 @@
+// Variables:
+
+$xlSpacing: 6rem;
+$thickSpacing: 4rem;
+$normalSpacing: 2rem;
+$thinSpacing: 1rem;
+
+$fontColourMain: black;
+$fontColourSecondary: black;
+$fontColourAccent: black;
+
+$mainColour: orange;
+$secondaryColour: orange;
+$accentColour: orange;
+
+html {
+  color: $fontColourMain;
+  padding: $thickSpacing;
+  font-family: -apple-system, Roboto, sans-serif, serif;
+}
+
+.heading {
+  &__main {
+    margin-top: $normalSpacing;
+    margin-bottom: $normalSpacing;
+  }
+  &__sub {
+    margin-top: $thinSpacing;
+    margin-bottom: $thickSpacing;
+  }
+}
+
+.text {
+  &__normal {
+    color: $fontColourMain;
+  }
+  &__accent {
+    color: $fontColourAccent;
+  }
+}
