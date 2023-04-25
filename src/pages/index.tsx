@@ -4,13 +4,18 @@ import "../styles.scss";
 import MainPage from "../components/MainPage";
 import InfoPage from "../components/InfoPage";
 import ContactPage from "../components/ContactPage";
+import Nav from "../components/Nav";
+import Box from "../components/Box";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <main>
-      <MainPage />
-      <InfoPage />
-      <ContactPage />
+      <Nav />
+      <section>
+        <MainPage />
+        <InfoPage />
+        <ContactPage />
+      </section>
     </main>
   );
 };
